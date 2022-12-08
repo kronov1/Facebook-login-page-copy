@@ -1,0 +1,250 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* Estilos gerais */
+
+body {
+    padding: 100px 150px;
+    background-color: #F0F2F5;
+}
+
+h1, p, span {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 0,4px;
+    margin-bottom: 3.9px;
+}
+
+p {
+    font-size: 15px;
+    width: 280.9px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    color: rgb(114, 114, 114); 
+}
+
+input {
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #cacaca80;
+    border-width: 0.6px;
+    height: 45px;
+    padding-left: 17px;
+    font-weight: normal;
+    font-size: 15.9px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #287EFF;
+    box-shadow: rgba(42, 152, 255, 0.45) 2px 2px 10px;
+}
+
+input::placeholder {
+    color: #999999;
+}
+
+.facebook-logo {
+    width: 190px;
+}
+
+button {
+    height: 19px;
+}
+
+/* Estilos do conteúdo, ou específicos */
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 840px) {
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Conteúdo da divisão esquerda */
+
+.esquerda {
+    padding-right: 190px;
+}
+
+@media (max-width: 840px) {
+    .esquerda {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button-add {
+        position: relative;
+        left: 30px;
+        bottom: 20px;
+        background-color: #F5F6F7;
+        border-style: solid;
+        border-radius: 6px;
+        border-color: #cacaca80;
+        border-width: 0.6px;
+        color: #287EFF;
+        padding: 0;
+        transition: ease-in-out all 0.3s;
+        cursor: pointer;
+    }
+}
+
+.button-add {
+    background-color: #F5F6F7;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #cacaca80;
+    border-width: 0.6px;
+    height: 170px;
+    color: #287EFF;
+    padding: 0;
+    transition: ease-in-out all 0.3s;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 12px;
+}
+
+.add-span {
+    position: relative;
+    top: 38.5px;
+    font-size: 18px;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 13px;
+}
+
+.add-vector {
+    width: 42px;
+    position: relative;
+    top: 5px;
+}
+
+/*-----------------------------*/
+
+/* Conteúdo da divisão direita */
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 12px;
+}
+
+.conteudo {
+    box-shadow: none;
+}
+ 
+/* Botão da direita/Entrar */
+
+.botao-direita {
+    height: 44px;
+    font-size: 19px;
+}
+
+.entrar {
+    padding-top: 0px 16px;
+    width: 364px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #287EFF;
+    font-weight: bolder;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.entrar:hover {
+    background-color: #2776ec;
+}
+
+.botao-container {
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-texto {
+    font-size: 14px;
+    color: #287EFF;
+    width: 125px;
+    height: 18px;
+    padding: 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    margin-top: 10px;
+    border-bottom: 1px solid #9c9c9c57;
+}
+
+.link-texto:hover {
+    text-decoration: underline;
+}
+
+.criar-senha {
+    align-self: center;
+    text-align: center;
+    background-color: #42B72A;
+    width: 166.66px;
+    padding-top: 13px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.criar-senha:hover {
+    background-color: #3ca727;
+}
+
+.direita-fora {
+    box-shadow: none;
+    background-color: #F0F2F5;
+}
+
+.span-paragrafo {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 14px;
+    width: 380px;
+    color: #000;
+}
+
+.span {
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 10px;
+}
+
+/*-----------------------------*/
